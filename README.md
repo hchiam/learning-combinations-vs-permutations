@@ -25,3 +25,10 @@ Number of:
 ## To-do:
 
 Understand why there's `-1`s in the equation for **combinations** _with repeats_ allowed.
+
+The rest of that last equation makes sense:
+ - `n` to be combined + `r` _repeats allowed_ = `(n + r)!` permutations
+ - `/n!r!` to remove the ways to order `n` items and `r` items
+ - both of the above give you `(n+r)! / n!r!` "combinations"
+
+So why the `-1` on the top and bottom?
