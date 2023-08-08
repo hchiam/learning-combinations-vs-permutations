@@ -6,7 +6,7 @@ A reference: https://www.mathsisfun.com/combinatorics/combinations-permutations.
 
 Combinations are different from permutations. But did you know that there are actually different kinds of combinations and different kinds of permutations?
 
-Number of:
+Number of: (`n` = options, `r` = choose)
 
 1. **permutations** _with repeats_ allowed: `n^r`
 2. **permutations** without repeats (if `r == n`): `n!`
